@@ -1,5 +1,5 @@
 import praw
-import data
+
 
 Keywords = ['karma', 'Karma' 'Upvote' 'upvote']
 
