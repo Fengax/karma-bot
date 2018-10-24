@@ -9,7 +9,7 @@ def main():
                          username='karma__bot', password='odl36d5n')
 
     subreddit = reddit.subreddit('freekarma4u')
-    for submission in subreddit.stream.submissions(limit=100):
+    for submission in subreddit.stream.submissions():
         process_submission(submission)
 
 
